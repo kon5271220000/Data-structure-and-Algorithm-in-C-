@@ -9,6 +9,9 @@ Bubble Sort:
 EX: 5 6 1 3 -> 5 1 6 3 (swap 6 1) -> 5 1 3 6 (swap 6 3)
     5 1 3 6 -> 1 5 3 6 (swap 1 5) -> 1 3 5 6 (swap 5 3) -> finish
 
+Time Complexity = O(n^2)
+Space Complexity = O(1)
+
 */
 
 #include<iostream>
