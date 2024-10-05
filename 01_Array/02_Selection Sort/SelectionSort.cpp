@@ -1,3 +1,15 @@
+/*
+Selection sort:
+1.Go through the array to find the lowest value.
+2.Move the lowest value to the front of the unsorted part of the array.
+3.Go through the array again as many times as there are values in the array.
+
+Ex: 7 12 9 11 3 (lowest value = 3) -> 3 7 12 9 11 (start at 7, lowest value = 7) -> 3 7 12 9 11 (start at 12, lowest value = 9)
+    ->3 7 9 12 11 (start at 12, lowest value = 11) -> 3 7 9 11 12
+
+Time complexity: O(n^2)
+Space complexity: O(1)
+*/
 #include<iostream>
 #include<vector>
 
